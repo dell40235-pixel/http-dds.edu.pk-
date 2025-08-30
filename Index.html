@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die deutsche Sprachschule - German Language Institute</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Die deutsche Sprachschule</h1>
+                <p>Learn German with Experts</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#fees">Fees</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Learn German the Right Way</h2>
+                <p>Join our professional courses and achieve fluency in German with certified instructors.</p>
+                <a href="#courses" class="btn">Explore Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Our Institute</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Die deutsche Sprachschule has been teaching German as a foreign language since 2020. Founded by <strong>Muhammad Arsalan Afzal</strong>, our institute provides quality German language education with experienced instructors and proven teaching methods.</p>
+                    <p>We offer courses for all levels from A1 to B1 with flexible online and physical class options.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Certified instructors</li>
+                        <li><i class="fas fa-check"></i> Small class sizes</li>
+                        <li><i class="fas fa-check"></i> Interactive learning</li>
+                        <li><i class="fas fa-check"></i> Cultural immersion</li>
+                        <li><i class="fas fa-check"></i> Flexible timings</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="" alt="German class in session" id="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="course-levels">
+                <div class="level-tabs">
+                    <button class="tab-btn active" data-level="all">All Levels</button>
+                    <button class="tab-btn" data-level="beginner">Beginner (A1-A2)</button>
+                    <button class="tab-btn" data-level="intermediate">Intermediate (B1)</button>
+                </div>
+                <div class="course-cards" id="course-cards">
+                    <!-- Courses will be loaded by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming" class="upcoming-courses">
+        <div class="container">
+            <h2 class="section-title">Upcoming Courses</h2>
+            <div class="upcoming-container">
+                <div class="upcoming-list" id="upcoming-courses">
+                    <!-- Upcoming courses will be loaded by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fees" class="fees">
+        <div class="container">
+            <h2 class="section-title">Course Fees</h2>
+            <div class="fee-table-container">
+                <table class="fee-table">
+                    <thead>
+                        <tr>
+                            <th>Course Level</th>
+                            <th>Duration</th>
+                            <th>Mode</th>
+                            <th>Monthly Fee</th>
+                            <th>Total Fee</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fee-table-body">
+                        <!-- Fee data will be loaded by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="fee-notes">
+                <p>* Classes available Monday to Friday, 8:00 AM to 4:00 PM</p>
+                <p>** Both online and physical classes available</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-tabs">
+                    <button class="gallery-tab active" data-category="all">All</button>
+                    <button class="gallery-tab" data-category="classes">Classes</button>
+                    <button class="gallery-tab" data-category="events">Events</button>
+                </div>
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Gallery images will be loaded by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Our Certificates</h2>
+            <div class="certificates-container">
+                <div class="certificate-info">
+                    <p>Our institute provides completion certificates recognized by many organizations:</p>
+                    <ul>
+                        <li>Course Completion Certificates</li>
+                        <li>Language Proficiency Certificates</li>
+                        <li>Recommendation Letters</li>
+                    </ul>
+                </div>
+                <div class="certificate-slider" id="certificate-slider">
+                    <!-- Certificates will be loaded by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Student Testimonials</h2>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <!-- Testimonials will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Charity Plaza, 119 Multan Road,<br>Samanabad Town, Lahore, 54000</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>0301-9791217</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@deutschesprachschule.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Opening Hours</h3>
+                        <p>Mon-Fri: 8:00 AM - 4:00 PM</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="institute-contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="course-info">Course Information</option>
+                                <option value="registration">Registration</option>
+                                <option value="certificate">Certificate Verification</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Die deutsche Sprachschule</h3>
+                    <p>Your premier destination for German language education since 2020.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#fees">Fees</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li><a href="#courses">A1 Beginner</a></li>
+                        <li><a href="#courses">A2 Elementary</a></li>
+                        <li><a href="#courses">B1 Intermediate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for course updates and German learning tips.</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Die deutsche Sprachschule. All Rights Reserved.<br>Founded by Muhammad Arsalan Afzal</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
